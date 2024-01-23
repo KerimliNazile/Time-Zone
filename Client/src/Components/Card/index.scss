@@ -1,0 +1,27 @@
+.CardArea{
+    .CardImage{
+img{
+    width: 100%;
+}
+    }
+    .CardText{
+
+    }
+    .CardPrice{
+       
+font-size: 22px;
+    }
+    .CardIcon{
+        display: flex;
+       gap: 10px;
+       font-size: 22px;
+       
+        align-items: center;
+       .heart{
+        &:hover{
+            color: brown;
+            transition: 0.4s;
+        }
+       }
+    }
+}

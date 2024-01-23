@@ -1,0 +1,166 @@
+#Header {
+    min-height: 100vh;
+    background-color: rgb(240, 240, 242);
+
+    .HeaderArea {
+        .HeaderText {
+            max-width: 700px;
+
+            h1 {
+                font-size: 50px;
+            }
+
+            button {
+                font-size: 20px;
+                width: 150px;
+                height: 50px;
+
+                &:hover {
+                    background-color: rgb(255, 32, 34);
+                    border: 1px solid rgb(255, 32, 34);
+                    transition: 0.4s;
+                }
+            }
+
+            position: absolute;
+            top: 50%;
+            left: 10%;
+        }
+
+        .HeaderImg {
+            position: absolute;
+            right: 0;
+
+            img {
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #Header {
+        min-height: 100vh;
+        background-color: rgb(240, 240, 242);
+
+        .HeaderArea {
+            .HeaderText {
+                max-width: 400px;
+
+                h1 {
+                    font-size: 50px;
+                }
+
+                button {
+                    font-size: 20px;
+                    width: 150px;
+                    height: 50px;
+
+                    &:hover {
+                        background-color: rgb(255, 32, 34);
+                        border: 1px solid rgb(255, 32, 34);
+                        transition: 0.4s;
+                    }
+                }
+
+                position: absolute;
+                top: 50%;
+                left: 10%;
+            }
+
+            .HeaderImg {
+                position: absolute;
+                right: 0;
+
+                img {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #Header {
+        min-height: 100vh;
+        background-color: rgb(240, 240, 242);
+
+        .HeaderArea {
+            .HeaderText {
+                max-width: 200px;
+
+                h1 {
+                    font-size: 30px;
+                }
+
+                button {
+                    font-size: 20px;
+                    width: 150px;
+                    height: 50px;
+
+                    &:hover {
+                        background-color: rgb(255, 32, 34);
+                        border: 1px solid rgb(255, 32, 34);
+                        transition: 0.4s;
+                    }
+                }
+
+                position: absolute;
+                top: 50%;
+                left: 10%;
+            }
+
+            .HeaderImg {
+                position: absolute;
+                right: 0;
+
+                img {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    #Header {
+        min-height: 100vh;
+        background-color: rgb(240, 240, 242);
+
+        .HeaderArea {
+            .HeaderText {
+                max-width: 300px;
+
+                h1 {
+                    font-size: 50px;
+                }
+
+                button {
+                    font-size: 20px;
+                    width: 150px;
+                    height: 50px;
+
+                    &:hover {
+                        background-color: rgb(255, 32, 34);
+                        border: 1px solid rgb(255, 32, 34);
+                        transition: 0.4s;
+                    }
+                }
+
+                position: absolute;
+                top: 30%;
+                left: 10%;
+            }
+
+            .HeaderImg {
+                display: none;
+                position: absolute;
+                right: 0;
+
+                img {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
